@@ -1,5 +1,6 @@
 @model TodoViewModel
-@using Humanizer
+@using Humanizer;
+@using AspNetCoreTodo.Models;
 
 @{
     ViewData["Title"] = "Manage your todo list";
@@ -30,6 +31,6 @@
   </table>
 
   <div class="panel-footer add-item-form">
-    <!-- TODO: Add item form -->
+    @await Html.PartialAsync("_AddItemPartial", new TodoItem())
   </div>
 </div>

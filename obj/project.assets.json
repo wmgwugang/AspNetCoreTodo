@@ -13509,23 +13509,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Users\\wmg\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\WorkSpace\\Code\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+      "projectUniqueName": "D:\\Sutdy\\06CodeSpace\\aspnetcore\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
       "projectName": "AspNetCoreTodo",
-      "projectPath": "F:\\WorkSpace\\Code\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "F:\\WorkSpace\\Code\\AspNetCoreTodo\\AspNetCoreTodo\\obj\\",
+      "projectPath": "D:\\Sutdy\\06CodeSpace\\aspnetcore\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+      "packagesPath": "C:\\Users\\wmg\\.nuget\\packages\\",
+      "outputPath": "D:\\Sutdy\\06CodeSpace\\aspnetcore\\AspNetCoreTodo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\wmg\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
