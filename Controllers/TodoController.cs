@@ -5,16 +5,20 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using AspNetCoreTodo.Services;
 using AspNetCoreTodo.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AspNetCoreTodo.Controllers
 {
+    [Authorize]
     public class TodoController : Controller
     {
         private readonly ITodoItemService _todoItemService;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public TodoController(ITodoItemService todoItemService)
+        public TodoController(ITodoItemService todoItemService, UserManager<ApplicationUser> userManager)
         {
             _todoItemService = todoItemService;
+            _userManager = userManager;
         }
 
         public async Task<IActionResult> Index()
