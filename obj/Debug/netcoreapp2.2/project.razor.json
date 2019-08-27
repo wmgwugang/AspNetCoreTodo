@@ -1,5 +1,5 @@
 {
-  "FilePath": "f:\\WorkSpace\\Code\\AspNetCoreTodo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+  "FilePath": "d:\\Sutdy\\06CodeSpace\\aspnetcore\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -3001,8 +3001,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views\\ToDo\\Index.cshtml",
-      "TargetPath": "Views\\ToDo\\Index.cshtml",
+      "FilePath": "Views\\Todo\\Index.cshtml",
+      "TargetPath": "Views\\Todo\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -3013,6 +3013,11 @@
     {
       "FilePath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Todo\\_AddItemPartial.cshtml",
+      "TargetPath": "Views\\Todo\\_AddItemPartial.cshtml",
       "FileKind": "mvc"
     }
   ],
