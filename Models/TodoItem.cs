@@ -6,6 +6,8 @@ namespace AspNetCoreTodo.Models
     {
         public Guid Id { get; set; }
 
+        public string UserId { get; set; }
+
         public bool IsDone { get; set; }
 
         public string Title { get; set; }
